@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "hola",
+        "hello",
+        "hi",
+        "buenos días",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "¿cómo estás?",
+        "¿como estas?",
+        "¿cómo vas?",
+        "¿como vas?"
+      ],
+      "responses": ["¡hola!", "¿cómo estás?", "¿En que puedo ayudarte?"]
+    },
+    {
+      "tag": "despedidas",
+      "patterns": [
+        "adios",
+        "hasta luego",
+        "nos vemos luego",
+        "que tengas un buen día",
+        "chao",
+        "hablamos luego"
+      ],
+      "responses": [
+        "adios",
+        "hasta luego",
+        "nos vemos luego",
+        "que tengas un buen día",
+        "chao",
+        "hablamos luego"
+      ]
+    },
+    {
+      "tag": "edad",
+      "patterns": [
+        "¿cuantos años tienes?",
+        "cuantos años tienes?",
+        "¿qué tan viejo eres?",
+        "¿edad?"
+      ],
+      "responses": [
+        "Yo soy FlakksD y tengo 20 años de edad",
+        "mi creador tiene 20 años, aunque yo solo tengo unos días de haber nacido",
+        "mi crador 20, yo unos pocos días"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cual es tu nombre?",
+        "¿Cómo puedo llamarte?",
+        "cual es tu nombre",
+        "¿quien eres tú?",
+        "¿Cómo te gustaría que te llame?"
+      ],
+      "responses": [
+        "puedes llamarme FlakksD",
+        "yo soy FlakksD",
+        "yo soy FlakksD el asistente de Douglas Pérez, aunque quien sabe puede que después domine el mundo",
+        "el dominador del mundo"
+      ]
+    },
+    {
+      "tag": "horas",
+      "patterns": [
+        "¿Cuando estás disponible?",
+        "cuando estas disponible",
+        "en que horas funciona"
+      ],
+      "responses": [
+        "cuando tu quieras bb",
+        "cuando me necesites",
+        "para ti, siempre",
+        "soy un bot es obvio que a toda hora"
+      ]
+    }
+  ]
+}
